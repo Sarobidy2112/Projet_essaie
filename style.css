@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.Background{
+    background-image: url(image/bK1.jpg);
+    background-size: cover;
+}
+
+.Background .en-tête{
+    background-color: rgba(133, 133, 133, 0.315);
+    backdrop-filter: blur(8px);
+    border-radius: 0px 0px 25px 25px;
+    display: block;
+
+}
+
+.Background .en-tête .en_tête{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.Background .en-tête .en_tête .logo{
+    padding: 25px 0px;
+    width: 100px;
+    border-radius: 295px;
+}
+
+.Background .en-tête .en_tête h1{
+    color: white;
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    margin-left: 350px;
+}
+
+.Background .en-tête .nav-bar{
+    padding: 30px;
+    display: flex;
+}
+
+.Background .en-tête .nav-bar ul{
+    display: flex;
+
+}
+
+.Background .en-tête .nav-bar ul li{
+    margin-left: 265px;
+}
+
+.Background .en-tête .nav-bar ul li a{
+    color: white;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.Background .en-tête .nav-bar ul li .active{
+    color: red;
+}
+
+.Background .en-tête .nav-bar ul li a:hover{
+    border: 1px solid aqua;
+    padding: 25px;
+    border-radius: 125px;
+}
+
+.Background .devise{
+    text-align: center;
+    padding: 75px 0px;
+}
+
+.Background .devise h1{
+    font-size: 3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(247, 55, 231);
+    margin-bottom: 35px;
+}
+
+.Background .devise p{
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+footer{
+    padding: 75px;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    align-items: center;
+}
+
+footer div{
+    width: 100%;
+    align-items: center;
+}
+
+footer div .div1{
+    width: 50%;
+    float: left;
+}
