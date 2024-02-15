@@ -87,6 +87,100 @@
 
 }
 
+.corps1{
+    background-color: rgba(212, 240, 240, 0.486);
+}
+.corps1 .A_propos{
+    display: flex;
+    justify-content: center;
+    padding: 35px 75px;
+}
+
+.corps1 .A_propos .pictures1{
+    width: 500px;
+    border-radius: 50px;
+}
+
+.corps1 .A_propos .text{
+    margin-left: 95px;
+    padding: 35px;
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.322);
+}
+
+.corps1 .A_propos .text h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 35px;
+    color: rgb(253, 138, 29);
+}
+
+.corps1 .A_propos .text p{
+    font-weight: 800px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.corps1 .création {
+    display: flex;
+    justify-content: center;
+    padding: 75px;
+    align-items: center;
+}
+
+.corps1 .création .pictures2{
+    width: 500px;
+    border-radius: 50px;
+    margin-left: 95px;
+}
+
+.corps1 .création .text{
+    padding: 35px;
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.322);
+}
+
+.corps1 .création .text h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 35px;
+    color: rgb(253, 138, 29);
+}
+
+.corps1 .création .text p{
+    font-weight: 800px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.corps1 .image{
+    display: flex;
+    justify-content: center;
+}
+.corps1 .image img{
+    width: 750px;
+    height: 400px;
+    border-radius: 125px;
+}
+
+.corps1 .inauguration{
+    display: flex;
+    justify-content: center;
+    padding: 50px 75px;
+    align-items: center;
+}
+
+.corps1 .inauguration .inaug{
+    width: 500px;
+    border-radius: 75px;
+}
+
+.corps1 .inauguration p{
+    margin-left: 95px;
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.322);
+    padding: 50px;
+}
+
+
 footer{
     padding: 75px;
     background-color: rgb(44, 43, 43);
